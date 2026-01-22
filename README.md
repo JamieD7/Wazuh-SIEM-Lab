@@ -45,7 +45,7 @@ Network Configuration
   - Verified detection of file creating, modification, and deletion events.
 ## Screenshots
   - [View Screenshots](./screenshots)
-      - ![Wazuh all-in-one installation script](./screenshots/Installation & Setup.png)
+  - [Wazuh all-in-one installation script](./screenshots/Installation & Setup.png)
 ## Challenges & Solutions
   - Challenge: VirtualBox birdged networking failed to provide a connection over WiFi adapter (MediaTek Wi-Fi 6 MT7921).
       - Solution: Implemented dual-adapter configuration using NAT for internet access and Host-Only networking for agent to manager communication. This approach maintained network stability while enabling all required functionality.

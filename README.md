@@ -44,4 +44,4 @@ Network Configuration
   - Analyzed alert details including timestamps, file hashes, and event types.
   - Verified detection of file creating, modification, and deletion events.
 ## Screenshots
-  -[View Screenshots](./S
+  -[View Screenshots](./screenshots)

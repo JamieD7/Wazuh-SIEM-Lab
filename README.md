@@ -46,6 +46,8 @@ Network Configuration
 ## Screenshots
   - [View Screenshots](./screenshots)
     - [Wazuh all-in-one installation script](screenshots/Installation_&_Setup.png)
+    - [Wazuh dashboard before agent connected](screenshots/Wazuh_Dashboard.png)
+    - [Adding Windows agent](screenshots/Adding_Windows_Agent.png)
 ## Challenges & Solutions
   - Challenge: VirtualBox birdged networking failed to provide a connection over WiFi adapter (MediaTek Wi-Fi 6 MT7921).
       - Solution: Implemented dual-adapter configuration using NAT for internet access and Host-Only networking for agent to manager communication. This approach maintained network stability while enabling all required functionality.

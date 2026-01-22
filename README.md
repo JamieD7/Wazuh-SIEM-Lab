@@ -44,4 +44,28 @@ Network Configuration
   - Analyzed alert details including timestamps, file hashes, and event types.
   - Verified detection of file creating, modification, and deletion events.
 ## Screenshots
-  -[View Screenshots](./screenshots)
+  - [View Screenshots](./screenshots)
+## Challenges & Solutions
+  - Challenge: VirtualBox birdged networking failed to provide a connection over WiFi adapter (MediaTek Wi-Fi 6 MT7921).
+      - Solution: Implemented dual-adapter configuration using NAT for internet access and Host-Only networking for agent to manager communication. This approach maintained network stability while enabling all required functionality.
+  - Challenge: High volume of FIM alerts from legitimate Windows system activity (registry updates, systems maintenance)
+      - Observation: In production environments, baseline tuning and custom detection rules would filter expected system behavior while flagging truly suspicious modifications. This demonstrates the importance of alert tuning in real SOC operations.
+## Skills Demonstrated
+  - SIEM deployment and configuration.
+  - Linux system administration. (Ubuntu)
+  - Windows endpoint security monitoring.
+  - Network troubleshooting and configuration.
+  - Security event analysis and correlation.
+  - File integrity monitoring implementation.
+  - Agent-based security architecture.
+  - Technical documentation and troubleshooting
+## Future Enhancements
+  - Deploy additional Linux agents for multi-OS monitoring.
+  - Implement custom detection rules for specific attack patterns.
+  - Configure email alerting for critical events.
+  - Integrate with threat intelligence feeds.
+  - Create automated incident response playbooks.
+  - Add vulnerability detection scanning.
+
+
+

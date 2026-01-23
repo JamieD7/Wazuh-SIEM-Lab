@@ -70,5 +70,11 @@ Network Configuration
   - Create automated incident response playbooks.
   - Add vulnerability detection scanning.
 
+## Connect With Me!
+
+[<img align="left" alt="JamieDeMasi | LinkedIn" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />][linkedin]
+  - [LinkedIn](www.linkedin.com/in/jamiedemasi47)
+
+
 
 

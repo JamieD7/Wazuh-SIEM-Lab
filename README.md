@@ -70,10 +70,7 @@ Network Configuration
   - Create automated incident response playbooks.
   - Add vulnerability detection scanning.
 
-## Connect With Me!
-
-[<img align="left" alt="JamieDeMasi | LinkedIn" width="22px" src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white" />][linkedin]
-
-[linkedin]: https://www.linkedin.com/in/jamie-demasi-4bb616248/
+## Connect With Me! 
+[LinkedIn](https://www.linkedin.com/in/jamie-demasi-4bb616248/) | [GitHub](https://github.com/JamieD7)
 
 

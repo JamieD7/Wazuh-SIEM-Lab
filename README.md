@@ -21,7 +21,6 @@ Network Configuration
  - OS: Ubuntu 22.04 (VM), Windows 10/11 (Host)
  - Virtualization: Oracle VirtualBox
  - Monitoring: File Integrity Monitoring (Syscheck)
- - Configuration Management: Linux system administration, XML configuration
 ## Implementation Stages
 ### 1. Wazuh Manager Installation
   - Deployed Ubunut Desktop in VirtualBox. (8GB RAM, 6 Cores)

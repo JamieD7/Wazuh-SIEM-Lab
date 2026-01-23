@@ -1,6 +1,8 @@
 # Wazuh-SIEM-Lab
 ## Overview
-Built and configured Wazuh SIEM environment in a virtualized home lab to demonstrate security monitoring, file integrity monitoring, and incident detection.  
+Built and configured Wazuh SIEM environment in a virtualized home lab to demonstrate security monitoring, file integrity monitoring, and incident detection.
+![Wazuh Dashboard](screenshots/Agent_Connected.png)
+
 ## Project Goals
 - Deploy functional SIEM solution for security monitoring.
 - Implement file integrity monitoring across Windows endpoints.
@@ -15,7 +17,7 @@ Environment
 Network Configuration
   - Adapter 1 (NAT): Internet connection.
   - Adapter 2 (Host-Only): Host-VM communication for agent-manager.
-  - Bridged adapter had compatability issues with my hardware, so I had to implement a dual-adapter approach.
+  - Bridged adapter had compatibility issues with my hardware, so I had to implement a dual-adapter approach.
   - [Architecture Diagram](docs/Architecure.png)
 ## Technologies Used
  - SIEM Platform: Wazuh 4.14 (Manager, indexer, dashboard)
@@ -24,7 +26,7 @@ Network Configuration
  - Monitoring: File Integrity Monitoring (Syscheck)
 ## Implementation Stages
 ### 1. Wazuh Manager Installation
-  - Deployed Ubunut Desktop in VirtualBox. (8GB RAM, 6 Cores)
+  - Deployed Ubuntu Desktop in VirtualBox. (8GB RAM, 6 Cores)
   - Configured dual network adapters (NAT + Host-Only) for connectivity.
   - Installed Wazuh all-in-one deployment including manager,indexer,dashboard.
   - Verified services and accessed web dashboard at https://localhost.
@@ -42,7 +44,7 @@ Network Configuration
   - Created, modified, and deleted test files in monitored directory.
   - Observed real-time FIM alerts in Wazuh Dashboard.
   - Analyzed alert details including timestamps, file hashes, and event types.
-  - Verified detection of file creating, modification, and deletion events.
+  - Verified detection of file creation, modification, and deletion events.
 ## Screenshots
   - [View Screenshots](./screenshots)
     - [Wazuh all-in-one installation script](screenshots/Installation_&_Setup.png)

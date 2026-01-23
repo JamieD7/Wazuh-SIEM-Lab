@@ -16,6 +16,7 @@ Network Configuration
   - Adapter 1 (NAT): Internet connection.
   - Adapter 2 (Host-Only): Host-VM communication for agent-manager.
   - Bridged adapter had compatability issues with my hardware, so I had to implement a dual-adapter approach.
+  - [Architecture Diagram](docs/Architecure.png)
 ## Technologies Used
  - SIEM Platform: Wazuh 4.14 (Manager, indexer, dashboard)
  - OS: Ubuntu 22.04 (VM), Windows 10/11 (Host)
